@@ -7,6 +7,7 @@
 
 .container{
     background-color: #e8ecff;
+    max-width: 1000px;
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
