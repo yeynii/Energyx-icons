@@ -1,0 +1,45 @@
+.detail{
+    position: absolute;
+    background-color: white;
+    font-weight: bold;
+    color: black;
+    padding:10px;
+    font-size: 16px;
+    font-family: none;
+    -webkit-font-feature-settings: normal;
+    -moz-font-feature-settings: normal;
+    -moz-font-feature-settings: normal;
+    -ms-font-feature-settings: normal;
+    font-feature-settings: normal;
+    -webkit-font-variant-ligatures: normal;
+    font-variant-ligatures: normal;
+    pointer-events: none;
+    left : 50%;
+    bottom:-45px;
+    transform: translate(-50%);
+    z-index: 10;
+    border-radius: 5px;
+}
+
+.positioner{
+    position: relative;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.positioner:hover{
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.detail:after {
+    border-top:0px solid transparent;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid white;
+    content:"";
+    position:absolute;
+    top:-5px;
+    left : 50%;
+    transform: translate(-50%);
+}

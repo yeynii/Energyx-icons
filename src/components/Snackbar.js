@@ -1,9 +1,9 @@
 import React from 'react';
 import "./snackbar.css";
 
-const Snackbar = (props) => {
+const Snackbar = ({message}) => {
     return(
-        <div className='snackbar'>복사되었습니다.</div>
+        <div className='snackbar'>{message}</div>
     );
 };
 

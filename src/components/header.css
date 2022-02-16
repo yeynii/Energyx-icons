@@ -2,7 +2,17 @@ header{
     width: 100%;
     margin-bottom: 10px;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+}
+
+h2{
+    text-align: center;
+}
+
+.tools{
+    display: flex;
+    flex-direction: row;
 }
 
 input{
@@ -14,7 +24,7 @@ input{
     padding-left: 20px;
 }
 
-button{
+.button{
     padding: 0 20px;
     height: 30px;
     margin-left: 20px;
