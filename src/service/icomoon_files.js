@@ -4,13 +4,13 @@ import { firebaseApp } from "./firebase";
 class IcomoonFiles{
   db = getDatabase(firebaseApp);
 
-  icomoonFiles(files) {
+  updateFiles(files) {
     const dbRef = ref(this.db, '/');
-    set(dbRef, files);
+    return set(dbRef, files);
   }
 
   syncFiles(onUpdate){
-    const dbRef = ref(this.db, `books`);
+    const dbRef = ref(this.db, '/');
     onValue(dbRef, snapshot => {
       const value = snapshot.val();
       value && onUpdate(value);
