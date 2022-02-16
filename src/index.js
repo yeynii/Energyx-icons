@@ -1,11 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
+import IcomoonFiles from './service/icomoon_files';
+
+const icomoonFiles = new IcomoonFiles();
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App icomoonFiles={icomoonFiles}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
