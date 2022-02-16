@@ -1,4 +1,6 @@
 .app{
+    margin:auto;
+    max-width: 1000px;
     display: flex;
     position: relative;
     flex-direction: column;
@@ -7,7 +9,6 @@
 
 .container{
     background-color: #e8ecff;
-    max-width: 1000px;
     padding: 10px;
     display: flex;
     flex-wrap: wrap;

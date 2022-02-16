@@ -1,0 +1,27 @@
+header{
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+input{
+    flex:1;
+    height: 30px;
+    border: 1px solid #b9b9b9;
+    outline: none;
+    border-radius: 15px;
+    padding-left: 20px;
+}
+
+button{
+    padding: 0 20px;
+    height: 30px;
+    margin-left: 20px;
+    border: 0;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color: #cbcbcb;
+}
