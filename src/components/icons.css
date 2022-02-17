@@ -1,9 +1,9 @@
-.detail{
+.detail {
     position: absolute;
     background-color: rgba(0, 0, 0);
     font-weight: bold;
     color: white;
-    padding:10px;
+    padding: 5px 10px;
     font-size: 16px;
     font-family: none;
     -webkit-font-feature-settings: normal;
@@ -14,26 +14,26 @@
     -webkit-font-variant-ligatures: normal;
     font-variant-ligatures: normal;
     pointer-events: none;
-    left : 50%;
-    bottom:-45px;
+    left: 50%;
+    bottom: -35px;
     transform: translate(-50%);
     z-index: 10;
     border-radius: 5px;
 }
 
 .detail:after {
-    border-top:0px solid transparent;
+    border-top: 0px solid transparent;
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
     border-bottom: 5px solid rgba(0, 0, 0);
-    content:"";
-    position:absolute;
-    top:-5px;
-    left : 50%;
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: 50%;
     transform: translate(-50%);
 }
 
-.positioner{
+.positioner {
     position: relative;
     padding: 5px;
     margin: 4px;
@@ -41,6 +41,6 @@
     border-radius: 5px;
 }
 
-.positioner:hover{
+.positioner:hover {
     background-color: rgba(255, 255, 255, 1);
 }

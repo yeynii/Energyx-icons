@@ -24,7 +24,7 @@ const Body = ({keyword}) => {
           fetch('selection.json')
               .then(res => res.json())
               .then(jsonData => setLigatures(jsonData.icons.map(icon => icon.properties).map(property => property.ligatures)))
-      ,[]);
+      , []);
 
   useEffect(() => {
     iconName && setCode(`<span className="icon-${iconName}"></span>`);
@@ -36,7 +36,7 @@ const Body = ({keyword}) => {
           <div className="container">
             {ligatures
                 .filter(val => val?.toLowerCase()
-                .indexOf(keyword.toLowerCase()) > -1)
+                    .indexOf(keyword.toLowerCase()) > -1)
                 .map((ligature, i) => <Icons key={i} ligature={ligature} handleIconClick={handleIconClick}/>
                 )}
           </div>
@@ -60,8 +60,9 @@ const Body = ({keyword}) => {
               <div>{code}</div>
             </>
         )}
-        {snackbarMessage && <Snackbar key={Math.random()} text={snackbarMessage} time={1000} setMessage={setSnackbarMesssage} />}
-      </div> 
+        {snackbarMessage &&
+            <Snackbar key={Math.random()} text={snackbarMessage} time={1000} setMessage={setSnackbarMesssage}/>}
+      </div>
   )
 }
 

@@ -1,4 +1,4 @@
-header{
+header {
     width: 100%;
     margin-bottom: 10px;
     display: flex;
@@ -6,17 +6,17 @@ header{
     justify-content: space-between;
 }
 
-h2{
+h2 {
     text-align: center;
 }
 
-.tools{
+.tools {
     display: flex;
     flex-direction: row;
 }
 
-input{
-    flex:1;
+input {
+    flex: 1;
     height: 30px;
     border: 1px solid #b9b9b9;
     outline: none;
@@ -24,14 +24,14 @@ input{
     padding-left: 20px;
 }
 
-.button{
+.button {
     padding: 0 20px;
     height: 30px;
     margin-left: 20px;
     border: 0;
-    cursor:pointer;
+    cursor: pointer;
 }
 
-button:hover{
+button:hover {
     background-color: #cbcbcb;
 }

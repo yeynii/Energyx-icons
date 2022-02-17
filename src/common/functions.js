@@ -15,11 +15,12 @@ export function doCopy(text) {
   document.body.removeChild(textarea);
 }
 
-export function downloadURI(uri, name) {
-  const link = document.createElement("a");
-  link.download = name;
-  link.href = uri;
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
+export function download(file, filename) {
+  const url = window.URL.createObjectURL(file)
+  const a = document.createElement("a")
+  a.href = url
+  a.download = filename
+  a.click()
+  a.remove()
+  window.URL.revokeObjectURL(url);
 }

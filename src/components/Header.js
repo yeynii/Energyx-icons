@@ -1,34 +1,52 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './header.css';
-import {downloadURI} from "../common/functions";
+import {download} from "../common/functions";
 
 const Header = ({setKeyword}) => {
+  let files = [];
+  const paths = [
+    'selection.json',
+    'liga.js',
+    'style.css',
+    'fonts/icomoon.eot',
+    'fonts/icomoon.svg',
+    'fonts/icomoon.ttf',
+    'fonts/icomoon.woff'
+  ]
+
+  useEffect(() => {
+    for (const path of paths)
+      fetch(path)
+          .then(res => res.blob())
+          .then(blob => files.push({path, file: blob}))
+  }, []);
+
   const handleKeyword = e => {
     setKeyword(e.target.value);
   }
 
   const handleDownload = () => {
-    const files = [
-      {path:'/selection.json',name:'selection.json'},
-      {path:'/liga.js',name:'liga.js'},
-      {path:'/style.css',name:'style.css'},
-      {path:'/fonts/icomoon.eot',name:'icommon.eot'},
-      {path:'/fonts/icomoon.svg',name:'icomoon.svg'},
-      {path:'/fonts/icomoon.ttf',name:'icomoon.ttf'},
-      {path:'/fonts/icomoon.woff',name:'icomoon.woff'}
-    ]
-    for (const file of files){
-      downloadURI(file.path,file.name);
+    let zip = new window.JSZip();
+    for (const f of files) {
+      zip.file(f.path, f.file);
     }
+    console.log(files);
+    console.log(zip);
+    zip.generateAsync({type: "blob", compression: "DEFLATE"})
+        .then(content => {
+          const filename = "public.zip"
+          download(content, filename)
+        })
+        .catch(console.error)
   }
 
-  return(
+  return (
       <header>
         <h2>Energyx Icons</h2>
         <div className="tools">
           <input onChange={handleKeyword} placeholder="Search..."/>
           <div>
-            <button className="button" onClick={handleDownload} >다운로드</button>
+            <button className="button" onClick={handleDownload}>다운로드</button>
             <button className="button" onClick={() => window.open('//icomoon.io/app/#/projects')}>Icomoon</button>
           </div>
         </div>

@@ -19,7 +19,7 @@ const Icons = ({ligature, handleIconClick}) => {
            onClick={handleCopy}
            onMouseOver={handleMouseOverOut}
            onMouseOut={handleMouseOverOut}>
-        <span className="detail" style={visibility ? {display:"inherit"}:{display: "none"}}>{innerText}</span>
+        <span className="detail" style={visibility ? {display: "inherit"} : {display: "none"}}>{innerText}</span>
       </div>
   )
 };
