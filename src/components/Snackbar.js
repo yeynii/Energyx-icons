@@ -1,9 +1,9 @@
 import React from 'react';
 import "./snackbar.css";
 
-const Snackbar = ({message}) => {
+const Snackbar = ({text, ms}) => {
     return(
-        <div className='snackbar'>{message}</div>
+        <div className='snackbar' time={ms}>{text}</div>
     );
 };
 

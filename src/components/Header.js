@@ -1,15 +1,24 @@
 import React from 'react';
 import './header.css';
-import {downloadFile} from "../common/functions";
+import {downloadURI} from "../common/functions";
 
-const Header = ({files, setKeyword}) => {
+const Header = ({setKeyword}) => {
   const handleKeyword = e => {
     setKeyword(e.target.value);
   }
 
   const handleDownload = () => {
+    const files = [
+      {path:'/selection.json',name:'selection.json'},
+      {path:'/liga.js',name:'liga.js'},
+      {path:'/style.css',name:'style.css'},
+      {path:'/fonts/icomoon.eot',name:'icommon.eot'},
+      {path:'/fonts/icomoon.svg',name:'icomoon.svg'},
+      {path:'/fonts/icomoon.ttf',name:'icomoon.ttf'},
+      {path:'/fonts/icomoon.woff',name:'icomoon.woff'}
+    ]
     for (const file of files){
-      downloadFile(file);
+      downloadURI(file.path,file.name);
     }
   }
 

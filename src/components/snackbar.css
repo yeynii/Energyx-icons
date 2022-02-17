@@ -5,17 +5,14 @@
     color: white;
     padding: 10px;
     border-radius: 5px;
-    margin: 15px;
-    animation: fadeout 1s;
-    animation-timing-function: ease-in;
+    animation: fadeout 1000ms;
     animation-fill-mode: forwards;
+    bottom: 0px;
+    border: 2px gray solid;
 }
 
 @keyframes fadeout {
-  from {
-      opacity: 1;
-  }
-  to {
-      opacity: 0;
-  }
+    0% { opacity: 1;}
+    70% { opacity: 0.8;}
+    100% { opacity: 0;}
 }
