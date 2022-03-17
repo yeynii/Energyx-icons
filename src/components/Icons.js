@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import {doCopy} from "../common/functions";
 import './icons.css';
 
 const Icons = ({ligature, handleIconClick}) => {
@@ -10,11 +11,12 @@ const Icons = ({ligature, handleIconClick}) => {
 
   const handleCopy = () => {
     handleIconClick(ligature);
+    doCopy(ligature);
     setInnerText('copied!');
     setTimeout(() => setInnerText(ligature), 1000);
   }
   return (
-      <div className={`icon- positioner`}
+      <div className="xicon- positioner"
            onClick={handleCopy}
            onMouseOver={handleMouseOverOut}
            onMouseOut={handleMouseOverOut}>

@@ -5,17 +5,22 @@
     color: white;
     padding: 10px;
     border-radius: 5px;
-    animation: fadeout 1000ms;
+    animation: fadeinout 1000ms;
     animation-fill-mode: forwards;
-    bottom: 0px;
+    top : 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     border: 2px gray solid;
 }
 
-@keyframes fadeout {
+@keyframes fadeinout {
     0% {
+        opacity: 0;
+    }
+    20% {
         opacity: 1;
     }
-    70% {
+    80%{
         opacity: 1;
     }
     100% {
