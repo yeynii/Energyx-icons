@@ -29,7 +29,7 @@ const Body = ({keyword}) => {
 
   useEffect(() => {
 //    iconName && setLigatureEx("<span className=\"xicon>\n" + iconName + "</span>");
-    iconName && setLigatureEx(`<span className="xicon">\n${iconName}\n</span>`);
+    iconName && setLigatureEx(`<span className="xicon-">\n${iconName}\n</span>`);
     iconName && setClassEx(`<span className="xicon-${iconName}"></span>`);
   }, [iconName]);
 
