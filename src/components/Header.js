@@ -8,10 +8,10 @@ const Header = ({setKeyword}) => {
     'selection.json',
     'liga.js',
     'style.css',
-    'fonts/icomoon.eot',
-    'fonts/icomoon.svg',
-    'fonts/icomoon.ttf',
-    'fonts/icomoon.woff'
+    'fonts/energyx.eot',
+    'fonts/energyx.svg',
+    'fonts/energyx.ttf',
+    'fonts/energyx.woff'
   ]
 
   useEffect(() => {
