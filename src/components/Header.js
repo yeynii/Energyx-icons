@@ -34,7 +34,7 @@ const Header = ({setKeyword}) => {
     console.log(zip);
     zip.generateAsync({type: "blob", compression: "DEFLATE"})
         .then(content => {
-          const filename = "public.zip"
+          const filename = "iconpack.zip"
           download(content, filename)
         })
         .catch(console.error)
