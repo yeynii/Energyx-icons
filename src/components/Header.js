@@ -30,8 +30,6 @@ const Header = ({setKeyword}) => {
     for (const f of files) {
       zip.file(f.path, f.file);
     }
-    console.log(files);
-    console.log(zip);
     zip.generateAsync({type: "blob", compression: "DEFLATE"})
         .then(content => {
           const filename = "iconpack.zip"
