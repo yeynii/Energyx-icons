@@ -34,6 +34,8 @@ const Body = ({keyword}) => {
   }, [iconName]);
 
   return (
+    <>
+      <div className="count">{ligatures.length}개</div>
       <div className="body">
         <div className="energyx-icon">
           <div className="container">
@@ -73,6 +75,7 @@ const Body = ({keyword}) => {
         {snackbarMessage &&
             <Snackbar key={Math.random()} text={snackbarMessage} time={1000} setMessage={setSnackbarMesssage}/>}
       </div>
+      </>
   )
 }
 
