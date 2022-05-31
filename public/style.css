@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'energyx';
-  src:  url('fonts/energyx.eot?6hu00g');
-  src:  url('fonts/energyx.eot?6hu00g#iefix') format('embedded-opentype'),
-    url('fonts/energyx.ttf?6hu00g') format('truetype'),
-    url('fonts/energyx.woff?6hu00g') format('woff'),
-    url('fonts/energyx.svg?6hu00g#energyx') format('svg');
+  src:  url('fonts/energyx.eot?aohutz');
+  src:  url('fonts/energyx.eot?aohutz#iefix') format('embedded-opentype'),
+    url('fonts/energyx.ttf?aohutz') format('truetype'),
+    url('fonts/energyx.woff?aohutz') format('woff'),
+    url('fonts/energyx.svg?aohutz#energyx') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -51,433 +51,441 @@
   content: "\e903";
   color: #c2c9d1;
 }
-.xicon-hand_filled:before {
+.xicon-geo_state_off:before {
   content: "\e904";
+  color: #c2c9d1;
+}
+.xicon-hand_filled:before {
+  content: "\e905";
   color: #616568;
 }
 .xicon-pin:before {
-  content: "\e905";
-  color: #c2c9d1;
-}
-.xicon-quote_type_left:before {
   content: "\e906";
   color: #c2c9d1;
 }
-.xicon-request_again:before {
+.xicon-quote_type_left:before {
   content: "\e907";
   color: #c2c9d1;
 }
-.xicon-money:before {
+.xicon-request_again:before {
   content: "\e908";
   color: #c2c9d1;
 }
-.xicon-facebook:before {
+.xicon-money:before {
   content: "\e909";
   color: #c2c9d1;
 }
-.xicon-chevron_direction_fold_vertical:before {
+.xicon-facebook:before {
   content: "\e90a";
   color: #c2c9d1;
 }
-.xicon-exterminal_link:before {
+.xicon-chevron_direction_fold_vertical:before {
   content: "\e90b";
   color: #c2c9d1;
 }
-.xicon-arrow_triangle_direction_right:before {
+.xicon-exterminal_link:before {
   content: "\e90c";
   color: #c2c9d1;
 }
-.xicon-certification_id_certifying:before {
+.xicon-arrow_triangle_direction_right:before {
   content: "\e90d";
+  color: #c2c9d1;
+}
+.xicon-certification_id_certifying:before {
+  content: "\e90e";
   color: #bfadd1;
 }
 .xicon-goto:before {
-  content: "\e90e";
-  color: #c2c9d1;
-}
-.xicon-info_fill:before {
   content: "\e90f";
   color: #c2c9d1;
 }
-.xicon-sort_direction_descending:before {
+.xicon-info_fill:before {
   content: "\e910";
+  color: #c2c9d1;
+}
+.xicon-sort_direction_descending:before {
+  content: "\e911";
 }
 .xicon-phone_style_border:before {
-  content: "\e911";
+  content: "\e912";
   color: #c2c9d1;
 }
 .xicon-sort_direction_ascending:before {
-  content: "\e912";
+  content: "\e913";
 }
 .xicon-quote_type_right:before {
-  content: "\e913";
-  color: #c2c9d1;
-}
-.xicon-arrow_triangle_direction_down:before {
   content: "\e914";
   color: #c2c9d1;
 }
-.xicon-passive:before {
+.xicon-arrow_triangle_direction_down:before {
   content: "\e915";
+  color: #c2c9d1;
+}
+.xicon-passive:before {
+  content: "\e916";
   color: #d9d9d9;
 }
 .xicon-again:before {
-  content: "\e916";
-  color: #c2c9d1;
-}
-.xicon-add:before {
   content: "\e917";
   color: #c2c9d1;
 }
-.xicon-opinion:before {
+.xicon-add:before {
   content: "\e918";
   color: #c2c9d1;
 }
-.xicon-panel_roof:before {
+.xicon-opinion:before {
   content: "\e919";
   color: #c2c9d1;
 }
-.xicon-office:before {
+.xicon-panel_roof:before {
   content: "\e91a";
   color: #c2c9d1;
 }
-.xicon-print:before {
+.xicon-office:before {
   content: "\e91b";
   color: #c2c9d1;
 }
-.xicon-remove_style_border:before {
+.xicon-print:before {
   content: "\e91c";
   color: #c2c9d1;
 }
-.xicon-person_style_border:before {
+.xicon-remove_style_border:before {
   content: "\e91d";
   color: #c2c9d1;
 }
-.xicon-Default:before {
+.xicon-person_style_border:before {
   content: "\e91e";
   color: #c2c9d1;
 }
-.xicon-checkbox_state_checked:before {
+.xicon-Default:before {
   content: "\e91f";
+  color: #c2c9d1;
+}
+.xicon-checkbox_state_checked:before {
+  content: "\e920";
   color: #805ba4;
 }
 .xicon-checkbox_state_half:before {
-  content: "\e920";
+  content: "\e921";
   color: #bfadd1;
 }
 .xicon-user:before {
-  content: "\e921";
-  color: #c2c9d1;
-}
-.xicon-remove_style_basic:before {
   content: "\e922";
   color: #c2c9d1;
 }
-.xicon-setting:before {
+.xicon-remove_style_basic:before {
   content: "\e923";
   color: #c2c9d1;
 }
-.xicon-calendar_time:before {
+.xicon-setting:before {
   content: "\e924";
   color: #c2c9d1;
 }
-.xicon-panel_auction:before {
+.xicon-calendar_time:before {
   content: "\e925";
   color: #c2c9d1;
 }
-.xicon-done_all:before {
+.xicon-panel_auction:before {
   content: "\e926";
   color: #c2c9d1;
 }
-.xicon-trade:before {
+.xicon-done_all:before {
   content: "\e927";
   color: #c2c9d1;
 }
-.xicon-select_map:before {
+.xicon-trade:before {
   content: "\e928";
   color: #c2c9d1;
 }
-.xicon-push_state_default:before {
+.xicon-select_map:before {
   content: "\e929";
   color: #c2c9d1;
 }
-.xicon-delete_bin_style_filled:before {
+.xicon-push_state_default:before {
   content: "\e92a";
   color: #c2c9d1;
 }
-.xicon-notification:before {
+.xicon-delete_bin_style_filled:before {
   content: "\e92b";
   color: #c2c9d1;
 }
-.xicon-chevron_direction_down:before {
+.xicon-notification:before {
   content: "\e92c";
   color: #c2c9d1;
 }
-.xicon-calendar:before {
+.xicon-chevron_direction_down:before {
   content: "\e92d";
   color: #c2c9d1;
 }
-.xicon-active:before {
+.xicon-calendar:before {
   content: "\e92e";
+  color: #c2c9d1;
+}
+.xicon-active:before {
+  content: "\e92f";
   color: #d9d9d9;
 }
 .xicon-capital:before {
-  content: "\e92f";
+  content: "\e930";
   color: #c2c9d1;
 }
 .xicon-estimate_style_fill:before {
-  content: "\e930";
+  content: "\e931";
   color: #afd8ce;
 }
 .xicon-arrow_direction_diagonal_left:before {
-  content: "\e931";
-  color: #c2c9d1;
-}
-.xicon-upload_file_state_Default:before {
   content: "\e932";
   color: #c2c9d1;
 }
-.xicon-arrow_direction_down_outlined:before {
+.xicon-upload_file_state_Default:before {
   content: "\e933";
   color: #c2c9d1;
 }
-.xicon-file:before {
+.xicon-arrow_direction_down_outlined:before {
   content: "\e934";
   color: #c2c9d1;
 }
-.xicon-youtube:before {
+.xicon-file:before {
   content: "\e935";
   color: #c2c9d1;
 }
-.xicon-write:before {
+.xicon-youtube:before {
   content: "\e936";
   color: #c2c9d1;
 }
-.xicon-close_style_outlined:before {
+.xicon-write:before {
   content: "\e937";
   color: #c2c9d1;
 }
-.xicon-envelope_sealed:before {
+.xicon-close_style_outlined:before {
   content: "\e938";
   color: #c2c9d1;
 }
-.xicon-checkbox_state_normal:before {
+.xicon-envelope_sealed:before {
   content: "\e939";
   color: #c2c9d1;
 }
-.xicon-flag_stroke:before {
+.xicon-checkbox_state_normal:before {
   content: "\e93a";
   color: #c2c9d1;
 }
-.xicon-gauge:before {
+.xicon-flag_stroke:before {
   content: "\e93b";
   color: #c2c9d1;
 }
-.xicon-panel_field:before {
+.xicon-gauge:before {
   content: "\e93c";
   color: #c2c9d1;
 }
-.xicon-star_style_fill:before {
+.xicon-panel_field:before {
   content: "\e93d";
+  color: #c2c9d1;
+}
+.xicon-star_style_fill:before {
+  content: "\e93e";
   color: #fad827;
 }
 .xicon-certification_id_fail:before {
-  content: "\e93e";
+  content: "\e93f";
   color: #f7a795;
 }
 .xicon-tune:before {
-  content: "\e93f";
+  content: "\e940";
   color: #c2c9d1;
 }
 .xicon-make_new_project:before {
-  content: "\e940";
+  content: "\e941";
   color: #fff;
 }
 .xicon-chevron_direction_left:before {
-  content: "\e941";
-  color: #c2c9d1;
-}
-.xicon-add_outlined:before {
   content: "\e942";
   color: #c2c9d1;
 }
-.xicon-business_management:before {
+.xicon-add_outlined:before {
   content: "\e943";
   color: #c2c9d1;
 }
-.xicon-push_state_active:before {
+.xicon-business_management:before {
   content: "\e944";
+  color: #c2c9d1;
+}
+.xicon-push_state_active:before {
+  content: "\e945";
   color: #ee4e2b;
 }
 .xicon-envelope_opened:before {
-  content: "\e945";
+  content: "\e946";
   color: #c2c9d1;
 }
 .xicon-radio_state_checked:before {
-  content: "\e946";
+  content: "\e947";
   color: #805ba4;
 }
 .xicon-environment:before {
-  content: "\e947";
-  color: #c2c9d1;
-}
-.xicon-estimate:before {
   content: "\e948";
   color: #c2c9d1;
 }
-.xicon-envelope_invite:before {
+.xicon-estimate:before {
   content: "\e949";
   color: #c2c9d1;
 }
-.xicon-person_style_filled:before {
+.xicon-envelope_invite:before {
   content: "\e94a";
   color: #c2c9d1;
 }
-.xicon-chevron_direction_up:before {
+.xicon-person_style_filled:before {
   content: "\e94b";
   color: #c2c9d1;
 }
-.xicon-estimate_style_border:before {
+.xicon-chevron_direction_up:before {
   content: "\e94c";
+  color: #c2c9d1;
+}
+.xicon-estimate_style_border:before {
+  content: "\e94d";
   color: #afd8ce;
 }
 .xicon-menu:before {
-  content: "\e94d";
-  color: #c2c9d1;
-}
-.xicon-helpdesk:before {
   content: "\e94e";
   color: #c2c9d1;
 }
-.xicon-flag_filled:before {
+.xicon-helpdesk:before {
   content: "\e94f";
   color: #c2c9d1;
 }
-.xicon-delete_bin_style_border:before {
+.xicon-flag_filled:before {
   content: "\e950";
   color: #c2c9d1;
 }
-.xicon-find_on_map:before {
+.xicon-delete_bin_style_border:before {
   content: "\e951";
   color: #c2c9d1;
 }
-.xicon-phone_style_fill:before {
+.xicon-find_on_map:before {
   content: "\e952";
   color: #c2c9d1;
 }
-.xicon-location_company_style_fill:before {
+.xicon-phone_style_fill:before {
   content: "\e953";
   color: #c2c9d1;
 }
-.xicon-arrow_triangle_direction_up:before {
+.xicon-location_company_style_fill:before {
   content: "\e954";
   color: #c2c9d1;
 }
-.xicon-question:before {
+.xicon-arrow_triangle_direction_up:before {
   content: "\e955";
   color: #c2c9d1;
 }
-.xicon-arrow_direction_right:before {
+.xicon-question:before {
   content: "\e956";
   color: #c2c9d1;
 }
-.xicon-hand_stroke:before {
+.xicon-arrow_direction_right:before {
   content: "\e957";
+  color: #c2c9d1;
+}
+.xicon-hand_stroke:before {
+  content: "\e958";
   color: #616568;
 }
 .xicon-line_chart:before {
-  content: "\e958";
+  content: "\e959";
   color: #c2c9d1;
 }
 .xicon-checkbox_state_just_check_icon:before {
-  content: "\e959";
+  content: "\e95a";
   color: #fff;
 }
 .xicon-arrow_direction_left:before {
-  content: "\e95a";
-  color: #c2c9d1;
-}
-.xicon-download:before {
   content: "\e95b";
   color: #c2c9d1;
 }
-.xicon-chevron_direction_right:before {
+.xicon-download:before {
   content: "\e95c";
   color: #c2c9d1;
 }
-.xicon-constructor:before {
+.xicon-chevron_direction_right:before {
   content: "\e95d";
   color: #c2c9d1;
 }
-.xicon-remove_style_filled:before {
+.xicon-constructor:before {
   content: "\e95e";
   color: #c2c9d1;
 }
-.xicon-search:before {
+.xicon-geo_state_active:before {
   content: "\e95f";
   color: #c2c9d1;
 }
-.xicon-energy:before {
+.xicon-remove_style_filled:before {
   content: "\e960";
-  color: #d9d9d9;
+  color: #c2c9d1;
 }
-.xicon-naver:before {
+.xicon-search:before {
   content: "\e961";
   color: #c2c9d1;
 }
-.xicon-attention:before {
+.xicon-energy:before {
   content: "\e962";
-  color: #c2c9d1;
+  color: #d9d9d9;
 }
-.xicon-close_style_border:before {
+.xicon-naver:before {
   content: "\e963";
   color: #c2c9d1;
 }
-.xicon-chevron_direction_expand_vertical:before {
+.xicon-attention:before {
   content: "\e964";
   color: #c2c9d1;
 }
-.xicon-ongoing:before {
+.xicon-close_style_border:before {
   content: "\e965";
-  color: #fdec93;
+  color: #c2c9d1;
 }
-.xicon-arrow_triangle_direction_left:before {
+.xicon-chevron_direction_expand_vertical:before {
   content: "\e966";
   color: #c2c9d1;
 }
-.xicon-star_style_border:before {
+.xicon-ongoing:before {
   content: "\e967";
+  color: #fdec93;
+}
+.xicon-arrow_triangle_direction_left:before {
+  content: "\e968";
   color: #c2c9d1;
 }
-.xicon-audit:before {
-  content: "\e968";
-  color: #d2d4ee;
-}
-.xicon-location_company_style_border:before {
+.xicon-star_style_border:before {
   content: "\e969";
   color: #c2c9d1;
 }
-.xicon-tooltip:before {
+.xicon-audit:before {
   content: "\e96a";
-  color: #616568;
+  color: #d2d4ee;
 }
-.xicon-arrow_direction_up:before {
+.xicon-location_company_style_border:before {
   content: "\e96b";
   color: #c2c9d1;
 }
-.xicon-radio_state_normal:before {
+.xicon-tooltip:before {
   content: "\e96c";
-  color: #c2c9d1;
+  color: #616568;
 }
-.xicon-info_border:before {
+.xicon-arrow_direction_up:before {
   content: "\e96d";
   color: #c2c9d1;
 }
-.xicon-instagram:before {
+.xicon-radio_state_normal:before {
   content: "\e96e";
   color: #c2c9d1;
 }
-.xicon-interaction:before {
+.xicon-info_border:before {
   content: "\e96f";
+  color: #c2c9d1;
+}
+.xicon-instagram:before {
+  content: "\e970";
+  color: #c2c9d1;
+}
+.xicon-interaction:before {
+  content: "\e971";
   color: #c2c9d1;
 }
